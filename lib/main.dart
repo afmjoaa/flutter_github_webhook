@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// Enam is always right
+
 void main() {
   runApp(const MyApp());
 }
