@@ -26,3 +26,10 @@ jobs:
       - run: flutter pub get
       - run: flutter doctor -v
       - run: flutter build apk --target-platform android-arm64
+
+      - uses: slackapi/slack-github-action@v1.23.0
+        with:
+          channel-id: 'C04BAVAPS0P,C04BJTPAJEA'
+          slack-message: "Apk build result: ${{ job.status }}\n"
+        env:
+          SLACK_BOT_TOKEN: "xoxb-4396594757845-4399448476147-7z4RjQXM7XrYwJacgfFk4CZP"
