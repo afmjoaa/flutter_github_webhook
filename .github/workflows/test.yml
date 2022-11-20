@@ -32,4 +32,4 @@ jobs:
           channel-id: 'C04BAVAPS0P,C04BJTPAJEA'
           slack-message: "Apk build result: ${{ job.status }}\n"
         env:
-          SLACK_BOT_TOKEN: "xoxb-4396594757845-4412339144449-w2HdImzwIt90G0EN6d6iUlwm"
+          SLACK_BOT_TOKEN: "xoxp-4396594757845-4402000070852-4423401030432-149a510a8e106eae431b7125a7149281"
